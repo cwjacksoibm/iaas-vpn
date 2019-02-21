@@ -25,7 +25,7 @@ IBM Cloud's VPN access allows users to manage all servers remotely and securely 
    * Access your server via its private 10.x.x.x IP address via SSH or RDP
    * Connect to your server’s IPMI IP address for additional server management or rescue needs.
 
-We provide the IPSec service to customers for management of their environments. It is not recommended for production workloads.
+We provide the IPSec service to customers for management of their environments. It is not recommended for production workloads.  Consequently, production VPN's to other cloud providers are not supported through this product.  If a production VPN is required, it is recommended that the customer look into a gateway product such as a Dedicated FSA, vSRX, or Vyatta gateway.
 
 
 ## Setting up an IPSec connection
